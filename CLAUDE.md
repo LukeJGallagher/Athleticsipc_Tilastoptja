@@ -68,6 +68,12 @@ GitHub Actions (weekly Sunday 2AM UTC)
          └──> tilastopaja_updater.py ──> Tilastopaja CSV ──> Azure SQL
 ```
 
+### Azure SQL Database (Verified Working)
+- **Server**: `para-athletics-server-ksa.database.windows.net`
+- **Database**: `para_athletics_data`
+- **Tables**: Rankings, Records, Results, Athletes, ScrapeLog
+- **Admin**: `para_admin`
+
 ### GitHub Secrets Required
 - `SQL_CONNECTION_STRING`: Azure SQL ODBC connection string
 
